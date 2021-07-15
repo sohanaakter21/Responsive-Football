@@ -1,0 +1,202 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+/* common style */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+}
+
+/* First Part */
+header{
+  background-color:rgba(45, 37, 160, 1);
+}
+h1 {
+  font-size: 64px;
+  Line-height:80px;
+  font-weight: 700;
+  height: 230px;
+  width:485px;
+  color:  rgba(255, 255, 255, 1);
+  margin-bottom: 27px;
+}
+.flexible {
+  width: 1440px;
+  height: 677px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-side{
+  margin-right: 102px;
+  margin-left: 156px;
+}
+.half-width img {
+  width:556.01px; 
+  height:438px;
+}
+.btn{
+  text-decoration: none;
+  background-color: rgb(182, 77, 115);
+  color: rgba(255, 255, 255, 0.555);
+  font-weight: 500;
+  font-size: 16px;
+  Padding: 10px 24px 10px 24px;
+  line-height: 24px;
+  width: 168px;
+  height: 44px;
+  transition: 0.3s;
+}
+.btn:hover{
+ background-color: rgb(119, 238, 192);
+  color: rgba(255, 255, 255, 1);
+}
+.transformer{
+  transition: all 2s linear,transform 2s;
+}
+.transformer:hover{
+  width: 300px;
+  height: 300px;
+  transform: rotate(10deg) ;
+}
+
+/* Second Part */
+.container{
+  width: 1440px;
+  height: 2050px;
+  background-color: rgba(255, 255, 255, 1);
+  
+}
+.all-players{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-row-gap: 27px;
+  grid-column-gap: 30px;
+  width: 1050px;
+  height: 474px;
+  margin-top: 70px;
+  margin-left: 180px;
+  margin-right: 210px;
+}
+.players{
+  width: 330px;
+  height: 474px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color:rgba(255, 255, 255, 1);
+}
+.player{
+  width: 300px;
+  height: 426px;
+  padding: 15px 15px 33px 15px;
+}
+.player-name{
+  color: rgba(24, 25, 31, 1);
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 16px;
+  margin-bottom:0px; 
+}
+.player-picture {
+  margin: 0;
+}
+.player-picture img{
+  width:300px;
+  height:256px;
+  
+}
+.player-details{
+  width: 300px;
+  height: 154px;
+  
+}
+.player-info{
+  color: rgba(108, 108, 108, 1);
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+/* Last Part */
+.Third-section{
+  width: 1440px;
+  height: 500px;
+}
+.form-section{
+  background:rgba(170, 121, 82, 0.527);
+  width:30%;
+  height:40vh;
+  border-radius:5px;
+  margin:auto;
+  margin-bottom: 2% ;
+  padding:4%; 
+  border: #292929 2px solid; 
+  text-align: center;
+}
+.form-half{
+  margin-bottom: 4%;
+}
+
+textarea {
+  width: 80%;
+  margin-top: 4%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+
+/* Four Extra Section */
+.top-clubs{
+  width: 1440px;
+  height: 500px;
+}
+.clubs {
+  display: flex;
+  justify-content: center;
+}
+.club img {
+  width: 150px;
+  height: 150px;
+}
+.club-info {
+  width: 300px;
+}
+
+/* Last Part */
+.footer-section {
+  width: 1440px;
+  height: 25vh;
+}
+.last-part{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ficon{
+  padding:0 14px;
+}
+.ft-info {
+  margin-top: 20px;
+}
+.ft-text{
+  margin-top: 20px;
+  margin-bottom: 63px;
+  width: 236px;
+  height: 31px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 1);
+;
+}
+.ft-img {
+  width:483.87px;
+  height:110px;
+}
